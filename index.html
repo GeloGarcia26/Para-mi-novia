@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Para mi amor ❤️</title>
+    <style>
+        body {
+            background: #ffe6ec;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+        h1 {
+            color: #d6336c;
+        }
+        p {
+            font-size: 20px;
+            color: #444;
+        }
+        button {
+            background: #d6336c;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #b82a5a;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Feliz otro mes juntos ❤️</h1>
+    <p>Eres lo mejor que me ha pasado. Gracias por estar conmigo.</p>
+
+    <button onclick="mostrarMensaje()">Haz clic aquí</button>
+
+    <p id="mensaje" style="margin-top:20px; font-size:22px; color:#d6336c;"></p>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("mensaje").innerText = "Te amo muchísimo 💕";
+        }
+    </script>
+
+</body>
+</html>
 
